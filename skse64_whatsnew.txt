@@ -2,6 +2,7 @@
 - don't spam OnCrosshairRefChange when player controls are disabled (thanks ferarri365 for the bug report)
 - NiObjectNET::AddExtraData could misorder the list (function not used by SKSE itself, thanks UaineMazoku for the bug report)
 - item ID hashes understand light plugins and don't break when reordered
+- heuristic for bookType (SE dropped the flag, so just case-insensitive check the nif path for "note" ugh)
 
 2.2.6
 - support for 1.6.1170

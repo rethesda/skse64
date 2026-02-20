@@ -53,7 +53,7 @@ If your mod requires SKSE64, please provide a link to the main SKSE website <htt
  - Look at the included .psc files in Data\Scripts\Source\. At the bottom of each .psc file is a label that shows the SKSE functions which have been added. Most have comments describing their purpose, if it is not obvious from the name.
 
 * How do I write a plugin for SKSE?
- - See PluginAPI.h for instructions, as well as the example plugin project included with the rest of the source code. If you include any of the SKSE source code, you are required to make your source code available.
+ - See PluginAPI.h for instructions. If you include any of the SKSE source code, you are required to make your source code available.
 
 * Can I include SKSE as part of a mod pack/collection or otherwise rehost the files?
  - No. Providing a link to https://skse.silverlock.org/ is the suggested method of distribution. Exceptions may be given under applicable circumstances; contact us at the email addresses below. This means that if you see this file available for download anywhere other than https://skse.silverlock.org,  https://www.github.com/ianpatt/skse64, or on Nexus by any user other than https://www.nexusmods.com/users/2166624, that service is violating copyright. I don't like having to explicitly spell this out, but my hand has been forced.
